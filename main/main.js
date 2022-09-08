@@ -11,7 +11,7 @@ function rockPaperScissors(){
   }
 };
 
-function playGame(userVal){
+function playGame(){
   let botChoice = rockPaperScissors();
   let userChoice = document.querySelector('input').value.toLowerCase();
   let placeResults = document.querySelector('#placeResults');
