@@ -51,8 +51,8 @@ button{
 
 button:hover{
   cursor: pointer;
-  background: yellowgreen;
-  border: 1px solid yellowgreen;
+  background: lightblue;
+  border: 1px solid lightblue;
 }
 button:hover{
   cursor: pointer;
