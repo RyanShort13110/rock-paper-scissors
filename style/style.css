@@ -2,10 +2,14 @@
   box-sizing: border-box;
 }
 
+body{
+  background: black;
+}
+
 #container{
-  background: linear-gradient(to bottom, black 5%, rgb(160, 160, 160) 95%);
-  border-radius: 25%;
-  width: 80%;
+  background: wheat;
+  border-radius: 15px;
+  width: 400px;
   height: 500px;
   margin: 0 auto;
   display: grid;
@@ -17,7 +21,6 @@ h1{
   grid-column: 2 / span 4;
   grid-row: 2;
   text-shadow: 1px 1px 3px black;
-  color: white;
   font-size: 20px;
 }
 
@@ -25,9 +28,7 @@ h1{
   margin-left: 5%;
   grid-column: 1 / span 5;
   grid-row: 3;
-  text-shadow: 1px 1px 3px black;
   font-size: 18px;
-  color: white;
 }
 
 .inputField{
@@ -36,12 +37,23 @@ h1{
   margin-top: 25px;
 }
 
+.inputField > input{
+  border-radius: 40px;
+}
+
 #placeResults{
   margin-bottom: 55px;
   grid-column: 2 / span 3;
   grid-row: 5;
 }
 
+button{
+  border-radius: 40px;
+  border: 1px solid gray;
+}
+
 button:hover{
   cursor: pointer;
+  background: yellowgreen;
+  border: 1px solid yellowgreen;
 }
