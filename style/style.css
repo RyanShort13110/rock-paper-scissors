@@ -1,26 +1,29 @@
 *{
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body{
-  background: black;
+  background: rgb(122, 94, 42);
+  height: 100%;
 }
 
 #container{
   background: wheat;
   border-radius: 15px;
   width: 400px;
-  height: 500px;
-  margin: 0 auto;
+  height: 450px;
+  margin: 10% auto;
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 20% 20% 20% 20% 20%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.44);
 }
 h1{
-  grid-column: 2 / span 4;
+  grid-column: 2 / span 3;
   grid-row: 2;
-  text-shadow: 1px 1px 3px black;
   font-size: 20px;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.5);
 }
 .rules{
   margin-left: 5%;
@@ -36,24 +39,28 @@ h1{
 
 .inputField > input{
   border-radius: 40px;
+  border-style: none;
+}
+
+.inputField > input:hover{
+  border-style: none;
+  background: lightblue;
 }
 
 #placeResults{
   margin-bottom: 55px;
   grid-column: 2 / span 3;
   grid-row: 5;
+  font-size: 20px;
 }
 
 button{
   border-radius: 40px;
-  border: 1px solid gray;
+  border-style: none;
 }
 
 button:hover{
   cursor: pointer;
   background: lightblue;
   border: 1px solid lightblue;
-}
-button:hover{
-  cursor: pointer;
 }
