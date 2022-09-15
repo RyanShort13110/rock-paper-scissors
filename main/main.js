@@ -9,7 +9,7 @@ function rockPaperScissors(){
   }else{
     return 'scissors';
   }
-};
+}
 
 function playGame(){
   let botChoice = rockPaperScissors();
@@ -22,4 +22,4 @@ function playGame(){
   }else{
     placeResults.innerText = ` You have lost this time! The bot chose: ${botChoice}.`;
   }
-};
+}
