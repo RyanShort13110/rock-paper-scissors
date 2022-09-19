@@ -20,7 +20,7 @@ function playGame(){
   (userChoice === 'scissors' && botChoice === 'paper')){
     placeResults.innerText = ` You have won! The bot chose: ${botChoice}.`;
   }else if(userChoice === botChoice){
-    placeResults.innerText = `You picked the same! The bot also chose ${botChoice}.`;
+    placeResults.innerText = `You picked the same! The bot  chose "${botChoice}", too.`;
   }else{
     placeResults.innerText = ` You have lost this time! The bot chose: ${botChoice}.`;
   }
