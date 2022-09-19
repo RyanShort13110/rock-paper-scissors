@@ -4,33 +4,38 @@
 }
 
 body{
-  background: yellowgreen;
+  background: wheat;
   height: 100%;
 }
 
 #container{
-  background: wheat;
+  background: rgba(175, 238, 238, .6);
   border-radius: 15px;
   width: 400px;
   height: 450px;
-  margin: 10% auto;
+  margin: 8% auto;
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 20% 20% 20% 20% 20%;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.44);
 }
+
 h1{
   grid-column: 2 / span 3;
   grid-row: 2;
   font-size: 20px;
   border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 6px 4px rgba(0, 0, 0, 0.5);
 }
+
 .rules{
   margin-left: 5%;
   grid-column: 1 / span 5;
   grid-row: 3;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: bold;
 }
+
 .inputField{
   grid-column: 2 / span 4;
   grid-row: 4;
@@ -44,7 +49,7 @@ h1{
 
 .inputField > input:hover{
   border-style: none;
-  background: lightblue;
+  background: rgba(173, 216, 230, 0.3);
 }
 
 #placeResults{
@@ -52,6 +57,7 @@ h1{
   grid-column: 2 / span 3;
   grid-row: 5;
   font-size: 20px;
+  text-shadow: 2px 6px 4px rgba(0, 0, 0, 0.5);
 }
 
 button{
@@ -61,6 +67,6 @@ button{
 
 button:hover{
   cursor: pointer;
-  background: lightblue;
-  border: 1px solid lightblue;
+  background: rgba(173, 216, 230, 0.3);
+  border: 1px solid rgb(173, 216, 230,);
 }
