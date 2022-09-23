@@ -4,12 +4,12 @@
 }
 
 body{
-  background: wheat;
+  background: rgb(56, 56, 56);
   height: 100%;
 }
 
 #container{
-  background: rgba(175, 238, 238, .6);
+  background: whitesmoke;
   border-radius: 15px;
   width: 400px;
   height: 450px;
@@ -25,7 +25,7 @@ h1{
   grid-row: 2;
   font-size: 20px;
   border-bottom: 4px solid rgba(0, 0, 0, 0.5);
-  text-shadow: 2px 6px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 6px 4px rgba(0, 0, 0, 0.2);
 }
 
 .rules{
@@ -45,11 +45,12 @@ h1{
 .inputField > input{
   border-radius: 40px;
   border-style: none;
+  height: 65px;
 }
 
 .inputField > input:hover{
   border-style: none;
-  background: rgba(173, 216, 230, 0.3);
+  background: rgba(173, 216, 230, 0.4);
 }
 
 #placeResults{
@@ -63,10 +64,12 @@ h1{
 button{
   border-radius: 40px;
   border-style: none;
+  height: 65px;
+  background: white;
 }
 
 button:hover{
   cursor: pointer;
-  background: rgba(173, 216, 230, 0.3);
+  background: rgba(173, 216, 230, 0.4);
   border: 1px solid rgb(173, 216, 230,);
 }
