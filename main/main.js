@@ -21,6 +21,8 @@ function playGame(){
     placeResults.innerText = ` You have won! The bot chose: ${botChoice}.`;
   }else if(userChoice === botChoice){
     placeResults.innerText = `You picked the same! The bot  chose: ${botChoice}.`;
+  }else if(userChoice === ''){
+    placeResults.innerText = 'Please enter your choice'
   }else{
     placeResults.innerText = ` You have lost this time! The bot chose: ${botChoice}.`;
   }
