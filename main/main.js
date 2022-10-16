@@ -15,6 +15,7 @@ function playGame(){
   let botChoice = rockPaperScissors();
   let userChoice = document.querySelector('input').value.toLowerCase();
   let placeResults = document.querySelector('#placeResults');
+  
   if((userChoice === 'rock' && botChoice === 'scissors') || 
   (userChoice === 'paper' && botChoice === 'rock') || 
   (userChoice === 'scissors' && botChoice === 'paper')){
@@ -22,7 +23,7 @@ function playGame(){
   }else if(userChoice === botChoice){
     placeResults.innerText = `You picked the same! The bot  chose: ${botChoice}.`;
   }else if(userChoice === ''){
-    placeResults.innerText = 'Please enter your choice'
+    placeResults.innerText = 'Please enter your choice';
   }else{
     placeResults.innerText = ` You have lost this time! The bot chose: ${botChoice}.`;
   }
